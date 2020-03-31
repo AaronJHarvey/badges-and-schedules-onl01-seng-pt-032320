@@ -21,6 +21,6 @@ room_assignment
 end
 
 def printer(attendees)
-badges(names).each do |name|
+badges(name).each do |name|
 end
 end
