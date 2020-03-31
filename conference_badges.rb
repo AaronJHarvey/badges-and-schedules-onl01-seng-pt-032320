@@ -23,6 +23,4 @@ end
 def printer(attendees)
 badges.each do |name|
 end
-room_assignment.each do |name|
-end
 end
