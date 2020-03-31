@@ -1,1 +1,48 @@
-# Write your code here.
+def badge_maker(name)
+  "Hello, my name is #{name}."
+end
+
+ 
+
+
+
+
+
+def batch_badge_creator(names) 
+   badges=[]
+  names.each do |name|
+ badges <<  "Hello, my name is #{name}." 
+end
+badges
+end
+
+
+
+
+
+
+def assign_rooms(speakers)
+room_assignment = []
+
+number = 1
+speakers.each do |name|
+  room_assignment << "Hello, #{name}! You'll be assigned to room #{number}!"
+  number +=1
+end
+room_assignment
+end
+
+
+
+
+
+
+def printer(attendees)
+badges = "Hello, My name is #{attendees}!"
+batch_badge_creator(attendees).each do |name|
+  puts badges
+end
+assign_rooms(attendees).each do |name|
+  puts room_assignment
+end
+end
