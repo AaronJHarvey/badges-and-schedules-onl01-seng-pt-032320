@@ -32,11 +32,6 @@ end
 room_assignment
 end
 
-
-
-
-
-
 def printer(attendees)
 badges = "Hello, My name is #{attendees}!"
 name.each do |name|
