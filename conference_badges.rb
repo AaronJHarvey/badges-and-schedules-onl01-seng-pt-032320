@@ -25,6 +25,6 @@ badges.each do |name|
   puts "#{name}"
 end
 assign_rooms(speakers).each do |name|
-  puts "#{speakers}"
+  puts "#{attendees}"
 end
 end
