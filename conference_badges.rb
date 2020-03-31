@@ -39,7 +39,7 @@ end
 
 def printer(attendees)
 badges = "Hello, My name is #{attendees}!"
-name.each do |name|
+names.each do |name|
   puts badges
 end
 assign_rooms(attendees).each do |name|
